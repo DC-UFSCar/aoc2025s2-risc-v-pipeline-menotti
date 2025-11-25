@@ -46,7 +46,7 @@ jobs:
       with:
         test-name: Test flush
         setup-command: "./setup.sh"
-        command: "./tests/flush.sh"
+        command: "./tests/run.sh flush"
         timeout: 10
         max-score: 30
     - name: Autograding Reporter
